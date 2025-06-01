@@ -1,0 +1,5 @@
+# docker_container.nginx_container will be destroyed
+  - resource "docker_container" "nginx_container" { ... }
+
+  # docker_image.nginx will be destroyed
+  - resource "docker_image" "nginx" { ... }
